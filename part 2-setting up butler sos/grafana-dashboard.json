@@ -25,7 +25,7 @@
     "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 2,
-    "id": 1,
+    "id": 5,
     "links": [
       {
         "icon": "external link",
@@ -44,6 +44,18 @@
         "tooltip": "Open Hub",
         "type": "link",
         "url": "https://qliksense.ptarmiganlabs.com/hub"
+      },
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": false,
+        "title": "New link",
+        "tooltip": "",
+        "type": "dashboards",
+        "url": ""
       }
     ],
     "liveNow": false,
@@ -135,7 +147,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -193,7 +205,7 @@
             "alias": "$tag_host",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -247,7 +259,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -305,7 +317,7 @@
             "alias": "$tag_host",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -360,7 +372,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -417,7 +429,7 @@
             "alias": "Warnings during last hour",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [],
             "measurement": "log_event",
@@ -459,7 +471,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -516,7 +528,7 @@
             "alias": "Errors during last hour",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [],
             "measurement": "log_event",
@@ -558,7 +570,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -618,7 +630,7 @@
             "alias": "",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [],
             "measurement": "apps",
@@ -650,7 +662,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -701,7 +713,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -743,7 +755,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -794,7 +806,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -836,7 +848,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "fieldConfig": {
           "defaults": {
@@ -921,7 +933,7 @@
             "alias": "$tag_server_description",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -965,7 +977,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -1055,7 +1067,7 @@
             "alias": "$tag_server_description",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -1100,7 +1112,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "fieldConfig": {
           "defaults": {
@@ -1183,7 +1195,7 @@
             "alias": "$tag_server_description $tag_user_session_virtual_proxy",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -1239,7 +1251,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -1326,7 +1338,7 @@
             "alias": "$tag_event_action",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -1376,7 +1388,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "uid": "v_Je1B-Vk"
+          "uid": "PNA1WLaVk"
         },
         "description": "",
         "fieldConfig": {
@@ -1463,7 +1475,7 @@
             "alias": "$tag_origin",
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "groupBy": [
               {
@@ -1527,7 +1539,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -1609,7 +1621,7 @@
             },
             "gridPos": {
               "h": 7,
-              "w": 12,
+              "w": 24,
               "x": 0,
               "y": 21
             },
@@ -1636,7 +1648,7 @@
                 "alias": "[[tag_server_description]]",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -1676,7 +1688,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -1757,10 +1769,10 @@
               ]
             },
             "gridPos": {
-              "h": 7,
-              "w": 12,
-              "x": 12,
-              "y": 21
+              "h": 6,
+              "w": 24,
+              "x": 0,
+              "y": 28
             },
             "id": 202,
             "options": {
@@ -1785,7 +1797,7 @@
                 "alias": "[[tag_server_description]]",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -1852,7 +1864,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -1938,7 +1950,7 @@
                 "alias": "$tag_server_description: Total users",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -1979,7 +1991,7 @@
                 "alias": "$tag_server_description: Active users",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2024,7 +2036,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -2087,7 +2099,7 @@
                 "alias": "User",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2125,7 +2137,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "fieldConfig": {
               "defaults": {
@@ -2216,7 +2228,7 @@
                 "alias": "$tag_server_description: Sessions",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2287,7 +2299,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "fieldConfig": {
               "defaults": {
@@ -2362,7 +2374,7 @@
               {
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2457,7 +2469,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -2502,8 +2514,7 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "orange",
-                      "value": null
+                      "color": "orange"
                     }
                   ]
                 },
@@ -2572,7 +2583,7 @@
                 "alias": "$tag_host $tag_source",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2641,7 +2652,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -2686,8 +2697,7 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "orange",
-                      "value": null
+                      "color": "orange"
                     }
                   ]
                 },
@@ -2725,7 +2735,7 @@
                 "alias": "$tag_host",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -2815,7 +2825,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "fieldConfig": {
               "defaults": {
@@ -2835,8 +2845,7 @@
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green",
-                      "value": null
+                      "color": "green"
                     },
                     {
                       "color": "red",
@@ -3004,12 +3013,12 @@
                 }
               ]
             },
-            "pluginVersion": "9.1.0",
+            "pluginVersion": "9.1.1",
             "targets": [
               {
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -3081,7 +3090,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "Max 1000 rows are shown",
             "gridPos": {
@@ -3105,7 +3114,7 @@
               {
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [],
                 "limit": "1000",
@@ -3161,7 +3170,7 @@
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "v_Je1B-Vk"
+              "uid": "PNA1WLaVk"
             },
             "description": "",
             "fieldConfig": {
@@ -3242,7 +3251,7 @@
                 "alias": "Heap total",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -3283,7 +3292,7 @@
                 "alias": "Heap used",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -3325,7 +3334,7 @@
                 "alias": "Process memory",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -3367,7 +3376,7 @@
                 "alias": "External memory",
                 "datasource": {
                   "type": "influxdb",
-                  "uid": "v_Je1B-Vk"
+                  "uid": "PNA1WLaVk"
                 },
                 "groupBy": [
                   {
@@ -3433,7 +3442,7 @@
       "list": []
     },
     "time": {
-      "from": "now-30m",
+      "from": "now-1h",
       "to": "now"
     },
     "timepicker": {
