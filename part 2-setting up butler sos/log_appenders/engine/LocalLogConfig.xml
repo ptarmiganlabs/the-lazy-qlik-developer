@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Generic appender for detecting warnings and errors -->
+    <appender name="LogEvent" type="log4net.Appender.UdpAppender">
+        <param name="threshold" value="warn" />
+        <param name="remoteAddress" value="192.168.1.168" />
+        <param name="remotePort" value="9996" />
+        <param name="encoding" value="utf-8" />
+        <layout type="log4net.Layout.PatternLayout">
+            <converter>
+                <param name="name" value="rownum" />
+                <param name="type" value="Qlik.Sense.Logging.log4net.Layout.Pattern.CounterPatternConverter" /> 
+            </converter> 
+            <converter>
+                <param name="name" value="hostname" />
+                <param name="type" value="Qlik.Sense.Logging.log4net.Layout.Pattern.HostNamePatternConverter" />
+            </converter>
+            <converter>
+                  <param name="name" value="longIso8601date" /> 
+                  <param name="type" value="Qlik.Sense.Logging.log4net.Layout.Pattern.Iso8601TimeOffsetPatternConverter" /> 
+            </converter>
+            <converter> 
+                  <param name="name" value="user" /> 
+                  <param name="type" value="Qlik.Sense.Logging.log4net.Layout.Pattern.ServiceUserNameCachedPatternConverter" /> 
+            </converter> 
+            <converter> 
+                  <param name="name" value="encodedmessage" /> 
+                  <param name="type" value="Qlik.Sense.Logging.log4net.Layout.Pattern.EncodedMessagePatternConverter" /> 
+            </converter> 
+            <param name="conversionpattern" value="/qseow-engine/;%rownum{9999};%longIso8601date;%date;%level;%hostname;%logger;%user;%encodedmessage;%property{ProxySessionId};%property{ActiveUserDirectory};%property{ActiveUserId};%property{EngineTimestamp};%property{ProcessId};%property{Exe Version};%property{Server Started};%property{Entry Type};%property{SessionId};%property{AppId}" />
+        </layout>
+    </appender>
+
+
+    <!-- Send UDP message to Butler SOS on warnings and errors -->
+    <logger name="Performance">
+        <appender-ref ref="LogEvent" />
+    </logger>
+    <logger name="System">
+        <appender-ref ref="LogEvent" />
+    </logger>
+    <logger name="Session">
+        <appender-ref ref="LogEvent" />
+    </logger>
+</configuration>
